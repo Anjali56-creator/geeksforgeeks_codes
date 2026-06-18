@@ -1,25 +1,32 @@
+/*
+class Node {
+public:
+    int data;
+    Node* left;
+    Node* right;
+
+    Node(int val) {
+        data = val;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+*/
+
 class Solution {
   public:
+  void Lview(Node *root,int level,vector<int>&ans){
+      if(!root)
+      return ;
+      if(level==ans.size())
+      ans.push_back(root->data);
+      Lview(root->left,level+1,ans);
+      Lview(root->right,level+1,ans);
+  }
     vector<int> leftView(Node *root) {
-        vector<int> ans;
-        if (!root) return ans;
-
-        queue<Node*> q;
-        q.push(root);
-
-        while (!q.empty()) {
-            int sz = q.size();
-            for (int i = 0; i < sz; i++) {
-                Node* cur = q.front();
-                q.pop();
-
-                if (i == 0)              // first node of level
-                    ans.push_back(cur->data);
-
-                if (cur->left) q.push(cur->left);
-                if (cur->right) q.push(cur->right);
-            }
-        }
+        // code here
+        vector<int>ans;
+        Lview(root,0,ans);
         return ans;
     }
 };
