@@ -1,0 +1,16 @@
+class Solution {
+  public:
+    int median(vector<vector<int>> &mat) {
+        // code here
+        vector<int>ans;
+        for(int i = 0; i < mat.size(); i++) {
+            for(int j = 0; j < mat[i].size(); j++) {
+                ans.push_back(mat[i][j]);
+            }
+        }
+
+        sort(ans.begin(),ans.end());
+
+        return ans[ans.size() / 2];
+    }
+};
