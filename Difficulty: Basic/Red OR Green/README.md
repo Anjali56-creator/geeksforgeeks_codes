@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/red-or-green5711/1?page=1&category=Strings&difficulty=Basic">Red OR Green</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a string <strong>s </strong>of length <strong>n</strong>, made up of only uppercase characters 'R' and 'G', where 'R' stands for Red and 'G' stands for Green.Find the minimum number of characters need to be changed so that the entire string becomes of the same colour.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "RGRGR"
+<strong>Output: </strong>2
+<strong>Explanation: </strong>We need to change only the 2nd and 4th(1-index based) characters to 'R', so that the whole string becomes the same colour.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "GGGGGGR"
+<strong>Output: </strong>1
+<strong>Explanation: </strong>We need to change only the last character to 'G' to make the string same-coloured.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&nbsp;</span><span style="background-color: #ffffff; color: #404040; font-family: KaTeX_Main, 'Times New Roman', serif; font-size: 19.36px; text-align: center; white-space: nowrap;">≤</span><span style="font-size: 18px;"> |s| </span><span style="background-color: #ffffff; color: #404040; font-family: KaTeX_Main, 'Times New Roman', serif; font-size: 19.36px; text-align: center; white-space: nowrap;">≤ </span><span style="font-size: 18px;">10</span><sup>5<br></sup><span style="font-size: 18px;">s consists only of characters 'R' and 'G'.</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
