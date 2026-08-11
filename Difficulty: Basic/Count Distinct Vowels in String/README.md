@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/count-distinct-vowels-in-string/1?page=1&category=Strings&difficulty=Basic&sortBy=accuracy">Count Distinct Vowels in String</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given a string <strong>s,</strong>&nbsp;count the total <strong>distinct </strong>vowels in the string. The string s contains <strong>lowercase </strong>letters only.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s = geeksforgeeks
+<strong>Output: </strong>1<br><strong>Explanation: </strong>String "geeksforgeeks" has 2 distinct vowel "e" and "o".</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>s = world
+<strong>Output: </strong>1<br><strong>Explanation: </strong>It has only 1 distinct vowel "o".</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1&nbsp;≤&nbsp;|s|&nbsp;≤ 10<sup>4</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
